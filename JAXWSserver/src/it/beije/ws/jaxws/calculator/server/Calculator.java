@@ -20,4 +20,7 @@ public interface Calculator {
  
     @WebMethod
     int divide(int a, int b);
+
+    @WebMethod
+    int module(int a, int b);
 }

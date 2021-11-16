@@ -31,4 +31,9 @@ public class CalculatorImpl implements Calculator {
         return a / b;
     }
  
+    @Override
+    public int module(int a, int b) {
+    	System.out.println("module " + a + " % " + b);
+        return a % b;
+    }
 }

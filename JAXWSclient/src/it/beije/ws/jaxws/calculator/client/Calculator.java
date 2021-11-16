@@ -84,4 +84,20 @@ public interface Calculator {
         @WebParam(name = "arg1", partName = "arg1")
         int arg1);
 
+    /**
+     * 
+     * @param arg1
+     * @param arg0
+     * @return
+     *     returns int
+     */
+    @WebMethod
+    @WebResult(partName = "return")
+    @Action(input = "http://server.calculator.jaxws.ws.beije.it/Calculator/moduleRequest", output = "http://server.calculator.jaxws.ws.beije.it/Calculator/moduleResponse")
+    public int module(
+        @WebParam(name = "arg0", partName = "arg0")
+        int arg0,
+        @WebParam(name = "arg1", partName = "arg1")
+        int arg1);
+
 }

@@ -15,6 +15,7 @@ public class CalculatorClient {
         System.out.println(b + " - " + c + " = " + calc.subtract(b, c));
         System.out.println(d + " * " + d + " = " + calc.multiply(d, d));
         System.out.println(d + " / " + b + " = " + calc.divide(d, b));
+        System.out.println(a + " % " + b + " = " + calc.module(a, b));
     }
  
 }
