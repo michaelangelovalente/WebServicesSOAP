@@ -6,10 +6,10 @@ public class CalculatorClient {
         CalculatorImplService service = new CalculatorImplService();
         Calculator calc = service.getCalculatorImplPort();
         
-        int a = 5;
-        int b = 2;
-        int c = 7;
-        int d = 4;
+        int a = 56;
+        int b = 63;
+        int c = 92;
+        int d = 140;
         
         System.out.println(a + " + " + b + " = " + calc.add(a, b));
         System.out.println(b + " - " + c + " = " + calc.subtract(b, c));

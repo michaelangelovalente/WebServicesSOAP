@@ -9,9 +9,9 @@ public class CiaoTestClient {
 	public static void main(String[] args) {
 		JaxWsProxyFactoryBean factory = new JaxWsProxyFactoryBean();
 		factory.setServiceClass(Ciao.class);
-		factory.setAddress("http://localhost:9000/ciao");
+		factory.setAddress("http://localhost:8000/ciao");
 		Ciao client = (Ciao) factory.create();
-		String reply = client.ciao("CILACAP");
+		String reply = client.ciao("PASCAL");
 		System.out.println("Server said: " + reply);
 		System.exit(0);
 	}
