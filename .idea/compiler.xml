@@ -11,6 +11,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="SimpleCxfSOAPserver" target="1.8" />
+      <module name="Test_client" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
