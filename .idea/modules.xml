@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JAXWSclient/JAXWSclient.iml" filepath="$PROJECT_DIR$/JAXWSclient/JAXWSclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAXWSserver/JAXWSserver.iml" filepath="$PROJECT_DIR$/JAXWSserver/JAXWSserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleCxfSOAPserver/SimpleCxfSOAPserver.iml" filepath="$PROJECT_DIR$/SimpleCxfSOAPserver/SimpleCxfSOAPserver.iml" />
+    </modules>
+  </component>
+</project>

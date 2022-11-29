@@ -1,0 +1,5 @@
+it\beije\ws\cxf\server\SimplePublisher.class
+it\beije\ws\cxf\client\CiaoTestClient.class
+it\beije\ws\cxf\server\CiaoImpl.class
+it\beije\ws\cxf\server\CxfPublisher.class
+it\beije\ws\cxf\server\Ciao.class
